@@ -1,7 +1,7 @@
 {
-  "name": "node-mocha-chai-test",
+  "name": "Origin Test",
   "version": "1.0.0",
-  "description": "exploring Mocha-Chai in a restfull app using node, express and mongoose",
+  "description": "Origin test",
   "main": "./app/server.js",
   "scripts": {
     "test": "nodemon --ext js --watch ./ --exec 'node_modules/mocha/bin/mocha ./test/risk-test' --delay 1 || true",
@@ -9,13 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/omidmaldar/node-mocha-chai-test.git"
+    "url": "https://github.com/charlanalves/origin.git"
   },
   "keywords": [
     "nodeJS",
-    "mongo",
-    "mongodb",
-    "mongoose",
     "express",
     "restfull",
     "api",
@@ -25,12 +22,12 @@
     "tdd",
     "bdd"
   ],
-  "author": "Omid",
+  "author": "Charlan Santos",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/omidmaldar/node-mocha-chai-test/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/omidmaldar/node-mocha-chai-test#readme",
+  "homepage": "",
   "dependencies": {
     "bluebird": "^3.4.7",
     "body-parser": "^1.16.1",
