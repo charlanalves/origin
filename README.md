@@ -18,5 +18,4 @@
 
 1. Modular code.
 2. Reusability of the code.
-3. Common algo at each point wherever it would be used-pure function.
-4. Neat and clean- ease for developer and debugger.
+3. Neat and clean- ease for developer and debugger.
