@@ -1,3 +1,8 @@
+# Stack
+Node.js - Apis
+Mocha and chai - Tests
+Wso2 - Api Gateway
+
 # Install
 1 - Install Docker Engine on your machine.
 
@@ -78,9 +83,9 @@ and then  click on "API Console" tab > Risk Endpoint:
 You can also to execute the services separately by using:
 
 
-`docker-compose up -d origin_api`
+`docker-compose up -d origin_api`   - Pure api without authentication
 
-`docker-compose up -d api-gateway`
+`docker-compose up -d api-gateway` - Api with authentication and Api Gateway resources
 
 
 
