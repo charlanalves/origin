@@ -11,7 +11,15 @@
 
 6 - To Import Postman Collection (file present at the root of this project) Risk Calculation.postman_collection.json and on raw tab change the body type from Text to JSON
 
-OR try with CURL: `curl -X POST \ http://localhost:8084/api/risk \ -H 'cache-control: no-cache' \ -H 'content-type: application/json' \ -H 'postman-token: 1a7d7cce-d8d9-827b-dc88-21f13c5f0fe0' \ -d '{ "age": 35, "dependents": 2, "house": {"ownership_status": "owned"}, "income": 0, "marital_status": "married", "risk_questions": [0, 1, 0], "vehicle": {"year": 2018} }'`
+OR try with CURL: curl -X POST   http://localhost:8084/api/risk   -H 'cache-control: no-cache'   -H 'content-type: application/json'   -H 'postman-token: 1a7d7cce-d8d9-827b-dc88-21f13c5f0fe0'   -d '{
+"age": 35,
+"dependents": 2,
+"house": {"ownership_status": "owned"},
+"income": 0,
+"marital_status": "married",
+"risk_questions": [0, 1, 0],
+"vehicle": {"year": 2018}
+}'
 
 # Runing tests
 for running tests: `docker exec -it origin_test /TDD/node_modules/.bin/mocha`
