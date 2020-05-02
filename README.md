@@ -64,8 +64,14 @@ and then  click on "API Console" tab > risk Endpoint:
 ![Api Gateway](https://i.ibb.co/NVBRBxP/02.png)
 
 
-5- Hit the button "Try it out" and then the button "Execute" and see the Api response
+
+5- Hit the button "Try it out"  
 ![Api Gateway](https://i.ibb.co/cJ1vFxN/04.png)
+
+
+
+
+6- Now clink on button "Execute"
 
 ![Api Gateway](https://i.ibb.co/V2CR6QS/05.png)
 
