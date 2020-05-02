@@ -1,12 +1,34 @@
 version: "2"
 services:
-  mochai-chai:
-    container_name: "origin_test"
+  origin_api:
+    container_name: "origin_api"
     build: .
     volumes:
       - ./:/TTD
     ports:
-      - "8085:8084"   
+      - "8084:8084"
     environment:
-        WEB_PORT: "8085" # this is optional, allows express to use process.env.PORT instead   
-   
+        WEB_PORT: "8084"
+    networks:
+      apig2:
+        ipv4_address: 192.168.208.3
+
+  api-gateway:
+    container_name: "api-gateway"
+    image: "charlan/api-gateway-ch:latest"
+    ports:
+      - "8280:8280"
+      - "8243:8243"
+      - "9443:9443"
+      - "5005:5005"
+    networks:
+      apig2:
+        ipv4_address: 192.168.208.2
+
+networks:
+  apig2:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 192.168.0.0/16
+         gateway: 192.168.0.1
