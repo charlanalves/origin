@@ -6,7 +6,7 @@
 3. Clone the project: https://github.com/charlanalves/origin.git
 4. cd origin
 5. docker-compose up -d
-6. To Import Postman Collection (file present at the root of this project) `Risk Calculation.postman_collection.json`
+6. To Import Postman Collection (file present at the root of this project) `Risk Calculation.postman_collection.json` and on raw tab change the body type from `Text` to `JSON`
 
 OR try with CURL:
 `
