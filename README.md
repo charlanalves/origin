@@ -52,5 +52,9 @@ Using it an API gateway has the following benefits:
 
 3 - to Acess Store Api and type username: admin and password: admin
 `https://localhost:9443/store/site/pages/login.jag`
+![Api Gateway](https://i.ibb.co/PDq4Wyw/01.png)
+
+
+4- 
 
 
