@@ -33,7 +33,7 @@ for running tests: `docker exec -it origin_api /TDD/node_modules/.bin/mocha`
 
 # Reasons why to choose Module pattern and config file app/rules.js 
 
-1 - Modular code.Install Docker Engine on your machine.
+1 - Modular code.
 
 2 - Reusability of the code.
 
