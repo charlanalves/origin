@@ -18,12 +18,9 @@ for running tests: `docker exec -it origin_test /TDD/node_modules/.bin/mocha`
 
 # Reasons why to choose Module pattern and config file app/rules.js for calculating risk scores and decide what insurance plan eligible for each lines of insurance.
 
-Modular code.
-Reusability of the code.
-Neat and clean- ease for developer and debugger.
+1 - Modular code.Install Docker Engine on your machine.
 
+2 - Reusability of the code.
 
+3 - Neat and clean- ease for developer and debugger.
 
-# License
-    Feel free to use, copy, modify, merge, publish, distribute. it's under MIT license.
-# origin
