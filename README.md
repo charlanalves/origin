@@ -47,16 +47,14 @@ Using an API gateway has the following benefits:
 
 # Install
 
-1 - `docker-compose -f docker-compose-with-api-gateway.yml up -d`
+1 - Wait for the services up (about 1 minute)
 
-2 - Wait for the services up (about 1 minute)
-
-3 - to Acess Store Api and type username: admin and password: admin
+2 - to Acess Store Api and type username: admin and password: admin
 `https://localhost:9443/store/site/pages/login.jag`
 ![Api Gateway](https://i.ibb.co/PDq4Wyw/01.png)
 
 
-4- To access this url:
+3- To access this url:
 
 `https://localhost:9443/store/apis/info?name=RiskCalculation&version=1.0&provider=admin#tab1`
 
@@ -65,13 +63,13 @@ and then  click on "API Console" tab > risk Endpoint:
 
 
 
-5- Hit the button "Try it out"  
+4- Hit the button "Try it out"  
 ![Api Gateway](https://i.ibb.co/cJ1vFxN/04.png)
 
 
 
 
-6- Now click on button "Execute" and see the API response
+5- Now click on button "Execute" and see the API response
 
 ![Api Gateway](https://i.ibb.co/V2CR6QS/05.png)
 
@@ -80,9 +78,11 @@ and then  click on "API Console" tab > risk Endpoint:
 You can also to execute the services separately by using:
 
 
-docker-compose up -d origin_api
+`docker-compose up -d origin_api`
 
-docker-compose up -d api-gateway
+`docker-compose up -d api-gateway`
+
+
 
 
 
