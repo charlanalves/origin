@@ -13,9 +13,6 @@ services:
       apig2:
         ipv4_address: 192.168.208.3
 
-    depends_on:
-      - api-gateway
-
   api-gateway:
     container_name: "api-gateway"
     image: "charlan/api-gateway-ch:latest"
@@ -27,7 +24,6 @@ services:
     networks:
       apig2:
         ipv4_address: 192.168.208.2
-
 
 networks:
   apig2:
