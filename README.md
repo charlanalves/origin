@@ -48,6 +48,7 @@ Using it an API gateway has the following benefits:
 
 1 - `docker-compose -f docker-compose-with-api-gateway.yml up -d`
 2 - Wait for the services up (about 1 minute)
-3 - to Acess Store Api:
+3 - to Acess Store Api and type username: admin and password: admin
+`https://localhost:9443/store/site/pages/login.jag`
 
 
