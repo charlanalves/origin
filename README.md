@@ -6,7 +6,7 @@
 3. Clone the project: https://github.com/charlanalves/origin.git
 4. cd origin
 5. docker-compose up -d
-6. To Access Postman an import the colletion (./postman)
+6. TImport Postman Collection (file present at the root of this project)
 
 
 # Runing tests
