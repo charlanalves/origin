@@ -35,7 +35,8 @@ for running tests: `docker exec -it origin_test /TDD/node_modules/.bin/mocha`
 
 # Bouns $$ :)
 I also have created another version of docker-compose (`docker-compose-with-api-gateway.yml`) with an API gateway.
-Using it an API gateway has the following benefits:
+
+Using an API gateway has the following benefits:
 
 - Insulates the clients from how the application is partitioned into microservices
 - Insulates the clients from the problem of determining the locations of service instances
