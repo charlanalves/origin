@@ -1,0 +1,12 @@
+version: "2"
+services:
+  mochai-chai:
+    container_name: "origin_test"
+    build: .
+    volumes:
+      - ./:/TTD
+    ports:
+      - "8084:8084"   
+    environment:
+        WEB_PORT: "8084" # this is optional, allows express to use process.env.PORT instead   
+   

@@ -1,0 +1,46 @@
+{
+  "name": "node-mocha-chai-test",
+  "version": "1.0.0",
+  "description": "exploring Mocha-Chai in a restfull app using node, express and mongoose",
+  "main": "./app/server.js",
+  "scripts": {
+    "test": "nodemon --ext js --watch ./ --exec 'node_modules/mocha/bin/mocha ./test/risk-test' --delay 1 || true",
+    "start": "nodemon ./app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omidmaldar/node-mocha-chai-test.git"
+  },
+  "keywords": [
+    "nodeJS",
+    "mongo",
+    "mongodb",
+    "mongoose",
+    "express",
+    "restfull",
+    "api",
+    "chai",
+    "mocha",
+    "test",
+    "tdd",
+    "bdd"
+  ],
+  "author": "Omid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omidmaldar/node-mocha-chai-test/issues"
+  },
+  "homepage": "https://github.com/omidmaldar/node-mocha-chai-test#readme",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.3",
+    "nodemon": "^1.19.4"
+  }
+}
