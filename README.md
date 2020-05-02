@@ -40,7 +40,7 @@ for running tests: `docker exec -it origin_api /TDD/node_modules/.bin/mocha`
 3 - Clean and scalable code with design prepared for growth and maintenance
 
 
-# Bouns $$ :)
+# Bonus $$ :)
 I also have created another optional docker service for API Gateway with OAUTH/JWt autentication etc.
 
 Using an API gateway has the following benefits:
