@@ -45,25 +45,25 @@ Using an API gateway has the following benefits:
 -Simplifies the client by moving logic for calling multiple services from the client to API gateway
 -Translates from a “standard” public web-friendly API protocol to whatever protocols are used internally
 
-# Install
+# API Gateway - Store
 
 1 - Wait for the services up (about 1 minute)
 
-2 - to Acess Store Api and type username: admin and password: admin
+2 - Access Store Api and type username: admin and password: admin via this url:
 `https://localhost:9443/store/site/pages/login.jag`
 ![Api Gateway](https://i.ibb.co/PDq4Wyw/01.png)
 
 
-3- To access this url:
+3- Now access the Risk Api:
 
 `https://localhost:9443/store/apis/info?name=RiskCalculation&version=1.0&provider=admin#tab1`
 
-and then  click on "API Console" tab > risk Endpoint: 
+and then  click on "API Console" tab > Risk Endpoint: 
 ![Api Gateway](https://i.ibb.co/NVBRBxP/02.png)
 
 
 
-4- Hit the button "Try it out"  
+4- Hit the button `"Try it out"`  
 ![Api Gateway](https://i.ibb.co/cJ1vFxN/04.png)
 
 
