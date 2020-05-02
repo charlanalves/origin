@@ -5,7 +5,7 @@
 
 3 - Clone the project: `git clone https://github.com/charlanalves/origin.git`
 
-4 - cd origin
+4 - `cd origin`
 
 5 - `docker-compose up -d`
 
