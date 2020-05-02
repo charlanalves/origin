@@ -56,10 +56,19 @@ Using it an API gateway has the following benefits:
 
 
 4- To access this url:
+
 `https://localhost:9443/store/apis/info?name=RiskCalculation&version=1.0&provider=admin#tab1`
 
 and then  click on "API Console" tab > risk Endpoint: 
 ![Api Gateway](https://i.ibb.co/NVBRBxP/02.png)
+
+
+5- Hit the button "Try it out" and then the button "Execute" and see the Api response
+![Api Gateway](https://i.ibb.co/cJ1vFxN/04.png)
+
+![Api Gateway](https://i.ibb.co/V2CR6QS/05.png)
+
+
 
 
 
