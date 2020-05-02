@@ -3,7 +3,7 @@
 
 2 - Install Docker-Compose on your machine.
 
-3 - Clone the project: https://github.com/charlanalves/origin.git
+3 - Clone the project: `git clone https://github.com/charlanalves/origin.git`
 
 4 - cd origin
 
