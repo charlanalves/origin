@@ -1,5 +1,5 @@
 {
-  "name": "Origin Test",
+  "name": "origin_test",
   "version": "1.0.0",
   "description": "Origin test",
   "main": "./app/server.js",
