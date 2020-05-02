@@ -71,7 +71,7 @@ and then  click on "API Console" tab > risk Endpoint:
 
 
 
-6- Now click on button "Execute"
+6- Now click on button "Execute" and see the API response
 
 ![Api Gateway](https://i.ibb.co/V2CR6QS/05.png)
 
