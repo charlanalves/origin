@@ -29,7 +29,7 @@ OR try with CURL: curl -X POST   http://localhost:8084/api/risk   -H 'cache-cont
 }'
 
 # Runing tests
-for running tests: `docker exec -it origin_test /TDD/node_modules/.bin/mocha`
+for running tests: `docker exec -it origin_api /TDD/node_modules/.bin/mocha`
 
 # Reasons why to choose Module pattern and config file app/rules.js 
 
