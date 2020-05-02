@@ -37,7 +37,7 @@ for running tests: `docker exec -it origin_api /TDD/node_modules/.bin/mocha`
 
 2 - Reusability of the code.
 
-3 - Neat and clean- ease for developer and debugger.
+3 - Clean and scalable code with design prepared for growth and maintenance
 
 
 # Bouns $$ :)
