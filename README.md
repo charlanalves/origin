@@ -1,38 +1,27 @@
+Practicing TTD,BDD with **`Mocha`** and **`Chai`** in a RESTful api developed by **`nodejs`**, **`express`**, **`mongodb`**, **`mongoose`** in a  **`dockerize`** environment.
+based ona tutorial published on (http://mherman.org/blog/2015/09/10/testing-node-js-with-mocha-and-chai/#.WKwkjlfNXBS)
+
+# Reasons why to choose Module pattern for calculating risk scores and decide what insurance plan eligible for each lines of insurance.
+
+1. Modular code.
+2. Reusability of the code.
+3. Common algo at each point wherever it would be used- pure function.
+4. Neat and clean- ease for developer and debugger.
+
 # Install
 
 1. [Install](https://docs.docker.com/engine/installation/) **`Docker Engine`** on your machine.
 2. [Install](https://docs.docker.com/compose/install/) **`Docker-Compose`** on your machine.
-
-3. Clone the project: https://github.com/charlanalves/origin.git
-4. cd origin
-5. docker-compose up -d
-6. To Import Postman Collection (file present at the root of this project) `Risk Calculation.postman_collection.json` and on raw tab change the body type from `Text` to `JSON`
-
-OR try with CURL:
-`
-curl -X POST \
-  http://localhost:8084/api/risk \
-  -H 'cache-control: no-cache' \
-  -H 'content-type: application/json' \
-  -H 'postman-token: 1a7d7cce-d8d9-827b-dc88-21f13c5f0fe0' \
-  -d '{
-"age": 35,
-"dependents": 2,
-"house": {"ownership_status": "owned"},
-"income": 0,
-"marital_status": "married",
-"risk_questions": [0, 1, 0],
-"vehicle": {"year": 2018}
-}'`
+3. Clone the project
+4. cd YOUR_PROJECT_FOLDER
+5. npm update --save-dev
+6. rename `__config-example.js` --> `__config.js`
+6. [Optional] edit configuration values in **`__config.js`**
+6. start servers by running **docker-compose up**
+7. browse to [http://127.0.0.1:8084/api](http://127.0.0.1:8084/api) or to http://*HOST_NAME:PORT/ROUTER_PREFIX/
+8. for running tests: `mocha ./test`
 
 
-# Runing tests
-
- for running tests: `docker exec -it origin_test /TDD/node_modules/.bin/mocha`
-
-
-# Reasons why to choose Module pattern and config file app/rules.js for calculating risk scores and decide what insurance plan eligible for each lines of insurance.
-
-1. Modular code.
-2. Reusability of the code.
-3. Neat and clean- ease for developer and debugger.
+# License
+    Feel free to use, copy, modify, merge, publish, distribute. it's under MIT license.
+# origin
